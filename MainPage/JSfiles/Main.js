@@ -20,10 +20,11 @@ cardCollection.forEach(card => {
     });
 });
 
-let windowflag = false
-if (windowflag == false) {
-    window.setTimeout(function () {
-    window.location.reload()
-    windowflag = true
-    },2000)
+if (!localStorage.getItem("reloaded")) {
+    localStorage.setItem("reloaded", "true");
+
+    setTimeout(function () {
+        window.location.reload();
+    }, 2000);
 }
+
