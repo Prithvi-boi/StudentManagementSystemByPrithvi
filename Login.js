@@ -24,3 +24,6 @@ document.getElementById("loginbtn").addEventListener("click",function (e) {
         window.location.href = "MainPage/Main.html";
     }
 })
+
+
+alert("Username: admin \n Password: admin" )
