@@ -1,0 +1,57 @@
+
+#Students{
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+#addStudent, #addCourse{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 140, 255);
+    border: 0px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 800;
+}
+
+#searchstudent , #searchcourse{
+    grid-area: 1 / 2 / 1 / 4 ;
+    height: 100%;
+    width: 95%;
+    margin: 10px;
+    padding: 3px;
+    padding-left: 25px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(230, 230, 230);
+}
+
+#searchstudent:focus{
+    color: blue;
+    outline: 2px solid rgb(0, 191, 255);
+}
+
+#statelabel1 , #statelabel2{
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.studentstate{
+    color: rgba(0, 0, 0, 0.62);
+}
+
+.studentstate:hover{
+    transform: scale(110%);
+}
+
+#statelabel1{
+    color: green;
+    background-color: rgb(0, 232, 0);
+}
+
+#statelabel2{
+    color: rgb(126, 0, 0);
+    background-color: rgb(255, 81, 0);
+}

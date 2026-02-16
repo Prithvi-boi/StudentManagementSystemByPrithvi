@@ -1,0 +1,99 @@
+#Dashboard{
+    text-align: justify;
+    padding: 20px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.countcard{
+    padding: 10px;
+    display: grid;        
+    grid-template-rows: auto ;
+    grid-template-columns: 200px 130px 100px;
+
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.162);
+    border-radius: 2px;
+    height: 60px;
+    width: 50%;
+    margin: 5px;
+}
+
+.DashboardEmojis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.maincard{
+    overflow-y: scroll;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.162);
+    border-radius: 2px;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+}
+
+.listcard{
+    padding: 10px;
+    margin-top: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(224, 223, 223);
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: auto ;
+    grid-template-columns: 100px auto 100px;
+    align-items: center;
+    box-shadow: 0px 2px 0px rgb(173, 173, 173);
+}
+
+.studentcardlogo{
+    justify-self: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.studentdetails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.studentstate{
+    height: 50%;
+    width: 100%;
+    border-radius: 50px;
+    background-color: rgba(24, 255, 3, 0.496);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: rgb(0, 127, 42);
+    border: 2px solid rgba(0, 128, 0, 0.095);
+}
+
+.studentcourse{
+    color: rgb(132, 132, 132);
+    font-size: 0.8rem;
+}
+
+.percentage{
+    color: rgb(63, 190, 0);
+    font-size: 0.8rem;
+}

@@ -1,0 +1,47 @@
+#Courses{
+    flex-direction: column;
+    text-align: justify;
+    padding: 20px;
+    row-gap: 10px;
+}
+
+#courseStream{
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 10px;
+    padding: 5px 150px 5px 150px;
+    color: rgb(252, 252, 252);
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgb(0, 166, 255);
+}
+
+
+.coursecardlogo{
+    justify-self: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 162, 0);
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coursedetails{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+
+.coursestream{
+    color: rgb(132, 132, 132);
+    font-size: 0.8rem;
+}
+
+#course_name_input, #course_duration_input{
+    padding: 10px;
+    padding-right: 200px;
+}

@@ -9,6 +9,7 @@ body{
     display: grid;
     grid-template-rows: 20vh 70vh 10vh;
     grid-template-columns: 20vw auto;
+    overflow: hidden;
 }
 
 /* --------------------------------------Header */
@@ -122,50 +123,23 @@ section{
     height: 100%;
     width: 100%;
 }
-::-webkit-scrollbar {width: 20px;}
-::-webkit-scrollbar-track {background-color: rgb(230, 230, 230);}
-::-webkit-scrollbar-thumb {background: rgb(0, 149, 255);border-radius: 10px;}
 
 h3{
     font-size: 1.5rem;
 }
 
-/* =============  Section 1. Dashboard   ================*/
-#Dashboard{
-    text-align: justify;
-    padding: 20px;
-    display: block;;
-    display: flex;
-    flex-direction: column;
-    row-gap: 10px;
-}
+/* =============  Sections   ================*/
 
-.countcard{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.162);
-    border-radius: 2px;
-    height: 60px;
-    width: 50%;
-    margin: 5px;
-}
-
-.maincard{
-    overflow-y: scroll;
-    background-color: rgb(252, 252, 252);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.162);
-    border-radius: 2px;
-    height: 100%;
-    width: 50%;
-}
-
+#Dashboard{display: none;}
 #Students{display: none;}
 #Courses{display: none;}  
 #Attendance{display: none;}
 #Marks{display:none;} 
 
+#Attendance , #Marks{
+    justify-content: center;
+    align-items: center;
+}
 /* --------------------------------------footer */
 
 footer{
