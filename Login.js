@@ -21,6 +21,6 @@ document.getElementById("loginbtn").addEventListener("click",function (e) {
         input_password.value = ""
         input_username.style.outline = "0px";
         input_password.style.outline = "0px";
-        window.location.href = "../MainPage/index.html";
+        window.location.href = "MainPage/Main.html";
     }
 })
