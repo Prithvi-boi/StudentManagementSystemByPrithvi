@@ -17,3 +17,7 @@ cardCollection.forEach(card => {
         }
     });
 });
+
+window.setTimeout(function () {
+    window.location.reload()
+},2000)
