@@ -3,6 +3,8 @@ let sections = document.getElementsByTagName("section")
 
 cardCollection.forEach(card => {
     card.addEventListener('click', function () {
+        let main_text = document.getElementById("main_text")
+        main_text.style.display = "none"
         cardCollection.forEach(c => c.classList.remove('active'));
         this.classList.add('active');
 
