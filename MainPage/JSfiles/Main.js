@@ -18,6 +18,10 @@ cardCollection.forEach(card => {
     });
 });
 
-window.setTimeout(function () {
+let windowflag = false
+if (windowflag == false) {
+    window.setTimeout(function () {
     window.location.reload()
-},2000)
+    windowflag = true
+    },2000)
+}
